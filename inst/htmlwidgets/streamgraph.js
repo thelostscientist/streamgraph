@@ -162,10 +162,7 @@ HTMLWidgets.widget({
         })})
 
       // track mouse, figure out value, update tooltip
-     .on("click", function(dd, i){
-        var selected_layer = dd.key
-        Shiny.onInputChange("clicked_layer", selected_layer);
-      })
+
       
       .on("mousemove", function(dd, i) {
 
