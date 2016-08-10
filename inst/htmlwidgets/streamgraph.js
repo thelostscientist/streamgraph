@@ -43,7 +43,7 @@ HTMLWidgets.widget({
 
     var colorrange = [];
     var tooltip ;
-    var opacity = 0.33 ;
+    var opacity = 0.25 ;
 
     var ncols = d3.map(data, function(d) { return(d.key) }).keys().length;
     if (ncols <= 2) { ncols = 3 ; }
